@@ -13,8 +13,11 @@ const perfectTempFile = path.join(__dirname, 'perfecttemp.mp3');
 const perfectTemp = new av.Player(perfectTempFile);
 const tooColdFile = path.join(__dirname, 'mrbigglesworth.mp3');
 const tooCold = new av.Player(tooColdFile);
+const hotInHereFile = path.join(__dirname, 'hotInHere.mp3');
+const hotInHere = new av.Player(hotInHereFile);
 
 module.exports = {
   perfectTemp: perfectTemp,
   tooCold: tooCold,
+  hotInHere: hotInHere
 };
